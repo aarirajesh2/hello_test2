@@ -7,11 +7,11 @@ def greet_user(name, location, date):
     print(f"You are currently in {location}.")
 
 # Get the user's name (you can hardcode this for a simple example)
-user_name = input("What is your name? ")
+user_name = input("Rajesh? ")
 
 # Set the location and date
 location = "Bengaluru, Karnataka"
 current_date = datetime.date(2025, 3, 15)
 
 # Call the greeting function
-greet_user(user_name, location, current_date)
+greet_user(user_name, location, current_dat)
